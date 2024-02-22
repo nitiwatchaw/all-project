@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.h-config {
+  height: calc(100vh - 180px);
+  
+}

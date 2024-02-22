@@ -1,0 +1,14 @@
+body {
+    background-color: antiquewhite;
+}
+
+.fullname {
+    font-size: 20px;
+    color: red;
+}
+
+.email {
+    font-size: 20px;
+    color: green;
+}
+

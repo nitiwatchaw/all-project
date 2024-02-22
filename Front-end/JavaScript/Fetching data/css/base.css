@@ -1,0 +1,35 @@
+body {
+    padding: 30px;
+}
+h2{
+    text-align: center;
+}
+.fullname {
+    font-size: 20px;
+    color: red;
+}
+
+.email {
+    font-size: 20px;
+    color: green;
+}
+
+.singleUser {
+    background-color: beige;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.MultipleUser,.datakung,.testing ,.inkData {
+    background-color: bisque;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0px;
+}
+.containItem{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 20px;
+}

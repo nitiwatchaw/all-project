@@ -1,0 +1,838 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="./img/5581393.png" type="png">
+  <script src="https://kit.fontawesome.com/5f24f44feb.js" crossorigin="anonymous"></script>
+
+  <!-- Animatione Style -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:wght@100&display=swap">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@100&family=Dancing+Script&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Ubuntu:wght@300&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="css/fontawesome-free-6.4.0-web/css/all.css" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/base.css" rel="stylesheet">
+
+
+
+  <title>Web app</title>
+
+</head>
+
+<body>
+  <header>
+
+    <nav>
+      <div class="left-nav">
+        <div class="logo">
+          <div class="line"></div>
+          <div class="line">
+            <div class="logo-detail">
+              <div class="line-blue"></div>
+              <div class="line-blue-circle"></div>
+
+            </div>
+          </div>
+          <div class="line"></div>
+        </div>
+        <form>
+          <input type="search" placeholder="search order, invoices, redemptions, customers">
+          <a href="#">
+            <i class="fa-regular fa-credit-card voucher"></i>
+            <p>Vouchers</p>
+          </a>
+
+        </form>
+        <div class="notification">
+          <a href="#"> <i class="fa-regular fa-bell bell"></i></a>
+          <div class="number-notice" id="sum-num"></div>
+        </div>
+      </div>
+
+
+      <div class="right-nav">
+        <button>
+          <div class="text">
+            <p>My Account</p>
+          </div>
+        </button>
+        <div class="img-profile" onclick="clickforsetting()">
+          <button>
+            <img src="./img/pngfind.com-black-man-png-195264.png" alt="man">
+          </button>
+        </div>
+        <div class="nav-line btn-hide">
+          <i class="gg-menu-right"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Main -->
+    <div class="container-fluid">
+
+      <div class="change-display">
+        <!-- section-1 -->
+        <section-1>
+
+          <div class="box-wrapper">
+
+            <a href="#" class="box1" id="dashboard">
+              <div class="text-wrapper-menu">
+                <i class="fa-solid fa-gauge-high icon"></i>
+                <p>Dashboard</p>
+              </div>
+              <div class="box-cover"></div>
+            </a>
+
+
+
+            <a href="#" class="box1" id="promotion-btn">
+              <div class="text-wrapper-menu">
+                <i class="fa-solid fa-wand-magic-sparkles icon"></i>
+                <p> Promotions</p>
+              </div>
+              <div class="box-cover"></div>
+            </a>
+
+
+            <a href="#" class="box1 " id="payments-btn">
+              <div class="text-wrapper-menu">
+                <i class="fa-solid fa-money-check-dollar icon"></i>
+                <p> Payments</p>
+              </div>
+              <div class="box-cover"></div>
+            </a>
+
+
+
+            <a href="#" class="box1">
+              <div class="text-wrapper-menu">
+                <i class="fa-solid fa-bars icon"></i>
+                <p> Menu</p>
+              </div>
+              <div class="box-cover"></div>
+            </a>
+
+
+            <a href="#" class="box1">
+              <div class="text-wrapper-menu">
+                <i class="fa-solid fa-users icon"></i>
+                <p> Customer</p>
+              </div>
+              <div class="box-cover"></div>
+            </a>
+
+
+            <div class="box1-content">
+              <p>Giving 10% discount on Wednesday for non Veg dishes gets 20% more traffic</p>
+              <h5>Tip</h5>
+              <div class="circle"></div>
+              <img src="./img/Screenshot 2023-06-20 220940.png" alt="">
+            </div>
+
+          </div>
+
+
+        </section-1>
+
+        <!-- section-2 -->
+        <section-2 class="display-2-old   ">
+          <div class="graph-wrapper " id="toggle-dashboard">
+            <div class="nav-bar">
+              <div class="topic">
+                <p>REVENUE</p>
+
+                <img src="./img/Screenshot 2023-06-19 214911.png" alt="graph">
+              </div>
+              <div class="topic-right">
+                <div class="menu-btn-wrapper">
+
+                  <ul class="menu">
+                    <li>
+                      <a href="#"> Daily</a>
+                    </li>
+                    <li>
+                      <a href="#">Weekly</a>
+                    </li>
+                    <li>
+                      <a href="#"> Monthly</a>
+                    </li>
+                  </ul>
+
+                  <div class="box-right-side">
+                    <div class="tag-money">
+                      <p>₹ 10,40,000.00</p>
+                      <p>₹ 50,000.00 <i class="fa-solid fa-arrow-up"></i></p>
+                      <i class="fa-solid fa-id-card bg-card"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="detail-money-wrapper">
+
+                  <div class="list-of-order">
+                    <div class="menu-name">
+                      <div class="color-nav or"></div>
+                      <div class="text-detail">
+                        <p>ZOMATO</p>
+                        <p>290 Orders</p>
+                      </div>
+                    </div>
+                    <div class="number-detail">
+                      <p>₹ 3,15,000.00</p>
+                    </div>
+                  </div>
+                  <div class="list-of-order">
+                    <div class="menu-name">
+                      <div class="color-nav pink"></div>
+                      <div class="text-detail">
+                        <p>SWIGGY</p>
+                        <p>211 Orders</p>
+                      </div>
+                    </div>
+                    <div class="number-detail">
+                      <p>₹ 2,75,000.00</p>
+                    </div>
+                  </div>
+                  <div class="list-of-order">
+                    <div class="menu-name">
+                      <div class="color-nav blue"></div>
+                      <div class="text-detail">
+                        <p>SELF</p>
+                        <p>416 Orders</p>
+                      </div>
+                    </div>
+                    <div class="number-detail">
+                      <p>₹ 4,50,000.00</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="middle-card" id="toggle-card">
+            <div class="box-card">
+              <div class="box-control">
+                <div class="card-color shadow-card-blue color-card-blue ">
+                  <div class="content-card ">
+                    <p>INVOICES PENDING</p>
+                    <p>₹ 50,000.00</p>
+                    <p>₹ 5,000 From Last Month</p>
+                    <i class="fa-solid fa-receipt bg-card-1"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="box-control">
+                <div class="card-color shadow-card-pink color-card-pink ">
+                  <div class="content-card">
+                    <p>CUSTOMERS</p>
+                    <p>4356</p>
+                    <p>56 NEW <i class="fa-solid fa-arrow-up"></i></p>
+                    <p>4300 OLD <i class="fa-solid fa-arrow-up"></i></p>
+                    <i class="fa-solid fa-user-group bg-card-2"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="box-control">
+                <div class="card-color shadow-card-purple color-card-purple ">
+                  <div class="content-card">
+                    <p>CUSTOMERS</p>
+                    <p>4356</p>
+                    <p>56 NEW <i class="fa-solid fa-arrow-up"></i></p>
+                    <p>4300 OLD <i class="fa-solid fa-arrow-up"></i></p>
+                    <i class="fa-solid fa-user-group bg-card-2"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="last-card" id="toggle-lastcard">
+            <div class="promotion-topic">
+              <div class="title">
+                <p>PROMOTIONS</p>
+              </div>
+              <div class="content-wrapper">
+                <div class="text-wrapper">
+                  <p>10% off on Non Veg(Wendesdays)</p>
+                  <p>11 Aug 2017</p>
+                </div>
+                <div class="circle green"></div>
+              </div>
+              <div class="content-wrapper ">
+                <div class="text-wrapper">
+                  <p>10% off on Non Veg(Wendesdays)</p>
+                  <p>11 Aug 2017</p>
+                </div>
+                <div class="circle red"></div>
+              </div>
+              <div class="content-wrapper ">
+                <div class="text-wrapper">
+                  <p>10% off on Non Veg(Wendesdays)</p>
+                  <p>11 Aug 2017</p>
+                </div>
+                <div class="circle green"></div>
+              </div>
+            </div>
+
+
+            <div class="insight">
+              <div class="title">
+                <p>MENU INSIGHTS</p>
+              </div>
+
+              <div class="detail-wrapper">
+                <div class="left-side">
+                  <div class="topic">
+                    <p>TOP DISHES</p>
+                  </div>
+                  <div class="content">
+                    <p>1.Tandoori chicken</p>
+                    <span class="loader"></span>
+                  </div>
+                  <div class="content">
+                    <p>2.Paneer tikka</p>
+                    <span class="loader"></span>
+                  </div>
+                  <div class="content">
+                    <p>3.Dai Makhani</p>
+                    <span class="loader"></span>
+                  </div>
+                </div>
+                <div class="right-side">
+                  <div class="topic-starter">
+                    <p>STARTERS</p>
+                    <div class="content">
+                      <div class="lunch">
+                        <div class="text-lunch-dinner">
+                          <p>Lunch</p>
+                        </div>
+                        <img src="./img/1.png" alt="">
+                      </div>
+                      <div class="dinner">
+                        <div class="text-lunch-dinner">
+                          <p>Dinner</p>
+                        </div>
+                        <img src="./img/2.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="topic-main">
+                    <p>Main Course</p>
+                    <div class="content">
+                      <div class="lunch">
+                        <div class="text-lunch-dinner">
+                          <p>Lunch</p>
+                        </div>
+                        <img src="./img/3.png" alt="">
+                      </div>
+                      <div class="dinner">
+                        <div class="text-lunch-dinner">
+                          <p>Dinner</p>
+                        </div>
+                        <img src="./img/4.png" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </section-2>
+
+      </div>
+
+      <!-- section 3 -->
+      <div class="side-wrapper unhide-side">
+        <div class="nav-order">
+          <div class="title-order">
+            <p>ORDERS</p>
+          </div>
+          <div class="menu-right ">
+            <div class="menu-topic btn-goto-new " id="btn-bor-hover-new">
+              <a href="#" id="num-new" class="active">
+              </a>
+              <div class=" bor-hover bor_active" id="bottonBorder-new"></div>
+            </div>
+            <div class="menu-topic btn-goto-pend" id="btn-bor-hover-pend">
+              <a href="#" id="num-pend">
+              </a>
+              <div class="bor-hover " id="bottonBorder-pend"></div>
+            </div>
+            <div class="menu-topic btn-goto-del" id="btn-bor-hover-del">
+              <a href="#" id="num-del">
+              </a>
+              <div class="bor-hover" id="bottonBorder-del"></div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-content">
+
+          <!-- Menu (New) -->
+          <div class="  menu-detail-new-open menu-detail-new-close  ">
+            <div class="scroll-y-new">
+              <div class="box-order" name="new" id="box1">
+                <div class="menu-line"></div>
+                <div class="timline-wrapper">
+                  <div class="topic">
+                    <div class="topic-wrapper">
+                      <div class="circle"></div>
+                      <div class="time-number">
+                        <p>110298769</p>
+                      </div>
+                    </div>
+                    <div class="time-minute">
+                      <p>4mins</p>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <div class="list">
+                      <p>1 Butter chicken(BL)</p>
+                      <p>1 Dal makkhani</p>
+                      <p>2 Plain naan</p>
+                      <p>1 Butter roti</p>
+                    </div>
+                    <div class="list-second-wrapper">
+                      <div class="list-second">
+                        <p>Source:</p>
+                        <p>Zomato</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Payment:</p>
+                        <p>COD</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Amount:</p>
+                        <p>₹ 899.00</p>
+                      </div>
+                    </div>
+                    <div class="btn-wrapper">
+                      <button class="btn-correct btn-active"><i class="fa-solid fa-check "></i></button>
+                      <button class="btn-wrong" id="delete_ob"><i class="fa-solid fa-xmark "></i></button>
+                      <button class="btn-phone"><i class="fa-solid fa-phone "></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="box-order" name="new" id="box2">
+                <div class="menu-line"></div>
+                <div class="timline-wrapper">
+                  <div class="topic">
+                    <div class="topic-wrapper">
+                      <div class="circle"></div>
+                      <div class="time-number">
+                        <p>110298769</p>
+                      </div>
+                    </div>
+                    <div class="time-minute">
+                      <p>4mins</p>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <div class="list">
+                      <p>1 Butter chicken(BL)</p>
+                      <p>1 Dal makkhani</p>
+                      <p>2 Plain naan</p>
+                      <p>1 Butter roti</p>
+                    </div>
+                    <div class="list-second-wrapper">
+                      <div class="list-second">
+                        <p>Source:</p>
+                        <p>Zomato</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Payment:</p>
+                        <p>COD</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Amount:</p>
+                        <p>₹ 899.00</p>
+                      </div>
+                    </div>
+                    <div class="btn-wrapper">
+                      <button class="btn-correct"><i class="fa-solid fa-check "></i></button>
+                      <button class="btn-wrong" id="delete_ob"><i class="fa-solid fa-xmark "></i></button>
+                      <button class="btn-phone"><i class="fa-solid fa-phone "></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="box-order" name="new" id="box3">
+                <div class="timline-wrapper">
+                  <div class="topic">
+                    <div class="topic-wrapper">
+                      <div class="circle"></div>
+                      <div class="time-number">
+                        <p>110298769</p>
+                      </div>
+                    </div>
+                    <div class="time-minute">
+                      <p>4mins</p>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <div class="list">
+                      <p>1 Butter chicken(BL)</p>
+                      <p>1 Dal makkhani</p>
+                      <p>2 Plain naan</p>
+                      <p>1 Butter roti</p>
+                    </div>
+                    <div class="list-second-wrapper">
+                      <div class="list-second">
+                        <p>Source:</p>
+                        <p>Zomato</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Payment:</p>
+                        <p>COD</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Amount:</p>
+                        <p>₹ 899.00</p>
+                      </div>
+                    </div>
+                    <div class="btn-wrapper">
+                      <button class="btn-correct "><i class="fa-solid fa-check "></i></button>
+                      <button class="btn-wrong" id="delete_ob"><i class="fa-solid fa-xmark "></i></button>
+                      <button class="btn-phone"><i class="fa-solid fa-phone "></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="box-order" name="new" id="box4">
+                <div class="timline-wrapper">
+                  <div class="topic">
+                    <div class="topic-wrapper">
+                      <div class="circle"></div>
+                      <div class="time-number">
+                        <p>110298769</p>
+                      </div>
+                    </div>
+                    <div class="time-minute">
+                      <p>4mins</p>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <div class="list">
+                      <p>1 Butter chicken(BL)</p>
+                      <p>1 Dal makkhani</p>
+                      <p>2 Plain naan</p>
+                      <p>1 Butter roti</p>
+                    </div>
+                    <div class="list-second-wrapper">
+                      <div class="list-second">
+                        <p>Source:</p>
+                        <p>Zomato</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Payment:</p>
+                        <p>COD</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Amount:</p>
+                        <p>₹ 899.00</p>
+                      </div>
+                    </div>
+                    <div class="btn-wrapper">
+                      <button class="btn-correct "><i class="fa-solid fa-check "></i></button>
+                      <button class="btn-wrong" id="delete_ob"><i class="fa-solid fa-xmark "></i></button>
+                      <button class="btn-phone"><i class="fa-solid fa-phone "></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+          <!-- Menu (Pending) -->
+          <div class="menu-detail-pend-close  menu-detail-pend-open">
+            <div class="scroll-y-pend">
+              <div class="box-order" name="pend">
+                <div class="menu-line"></div>
+                <div class="timline-wrapper">
+                  <div class="topic">
+                    <div class="topic-wrapper">
+                      <div class="circle"></div>
+                      <div class="time-number">
+                        <p>Pend</p>
+                      </div>
+                    </div>
+                    <div class="time-minute">
+                      <p>4mins</p>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <div class="list">
+                      <p>This is Pending</p>
+                    </div>
+                    <div class="list-second-wrapper">
+                      <div class="list-second">
+                        <p>Source:</p>
+                        <p>Zomato</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Payment:</p>
+                        <p>COD</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Amount:</p>
+                        <p>₹ 899.00</p>
+                      </div>
+                    </div>
+                    <div class="btn-wrapper">
+                      <button class="btn-correct btn-active"><i class="fa-solid fa-check "></i></button>
+                      <button class="btn-wrong"><i class="fa-solid fa-xmark "></i></button>
+                      <button class="btn-phone"><i class="fa-solid fa-phone "></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="box-order" name="pend">
+                <div class="menu-line"></div>
+                <div class="timline-wrapper">
+                  <div class="topic">
+                    <div class="topic-wrapper">
+                      <div class="circle"></div>
+                      <div class="time-number">
+                        <p>Pend</p>
+                      </div>
+                    </div>
+                    <div class="time-minute">
+                      <p>4mins</p>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <div class="list">
+                      <p>This is Pending</p>
+                    </div>
+                    <div class="list-second-wrapper">
+                      <div class="list-second">
+                        <p>Source:</p>
+                        <p>Zomato</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Payment:</p>
+                        <p>COD</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Amount:</p>
+                        <p>₹ 899.00</p>
+                      </div>
+                    </div>
+                    <div class="btn-wrapper">
+                      <button class="btn-correct btn-active"><i class="fa-solid fa-check "></i></button>
+                      <button class="btn-wrong"><i class="fa-solid fa-xmark "></i></button>
+                      <button class="btn-phone"><i class="fa-solid fa-phone "></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="box-order" name="pend">
+                <div class="menu-line"></div>
+                <div class="timline-wrapper">
+                  <div class="topic">
+                    <div class="topic-wrapper">
+                      <div class="circle"></div>
+                      <div class="time-number">
+                        <p>Pend</p>
+                      </div>
+                    </div>
+                    <div class="time-minute">
+                      <p>4mins</p>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <div class="list">
+                      <p>This is Pending</p>
+                    </div>
+                    <div class="list-second-wrapper">
+                      <div class="list-second">
+                        <p>Source:</p>
+                        <p>Zomato</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Payment:</p>
+                        <p>COD</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Amount:</p>
+                        <p>₹ 899.00</p>
+                      </div>
+                    </div>
+                    <div class="btn-wrapper">
+                      <button class="btn-correct btn-active"><i class="fa-solid fa-check "></i></button>
+                      <button class="btn-wrong"><i class="fa-solid fa-xmark "></i></button>
+                      <button class="btn-phone"><i class="fa-solid fa-phone "></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Menu (Delivered) -->
+          <div class="menu-detail-del-close  menu-detail-del-open">
+            <div class="scroll-y-delivered">
+              <div class="box-order" name="del">
+                <div class="menu-line"></div>
+                <div class="timline-wrapper">
+                  <div class="topic">
+                    <div class="topic-wrapper">
+                      <div class="circle"></div>
+                      <div class="time-number">
+                        <p>Delivered</p>
+                      </div>
+                    </div>
+                    <div class="time-minute">
+                      <p>Done</p>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <div class="list">
+                      <p>This is Deliverd</p>
+                    </div>
+                    <div class="list-second-wrapper">
+                      <div class="list-second">
+                        <p>Source:</p>
+                        <p>Zomato</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Payment:</p>
+                        <p>COD</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Amount:</p>
+                        <p>₹ 899.00</p>
+                      </div>
+                    </div>
+                    <div class="btn-wrapper">
+                      <button class="btn-correct btn-active"><i class="fa-solid fa-check "></i></button>
+                      <button class="btn-wrong"><i class="fa-solid fa-xmark "></i></button>
+                      <button class="btn-phone"><i class="fa-solid fa-phone "></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="box-order" name="del">
+                <div class="menu-line"></div>
+                <div class="timline-wrapper">
+                  <div class="topic">
+                    <div class="topic-wrapper">
+                      <div class="circle"></div>
+                      <div class="time-number">
+                        <p>Delivered</p>
+                      </div>
+                    </div>
+                    <div class="time-minute">
+                      <p>Done</p>
+                    </div>
+                  </div>
+                  <div class="content-box">
+                    <div class="list">
+                      <p>This is Delivered</p>
+                    </div>
+                    <div class="list-second-wrapper">
+                      <div class="list-second">
+                        <p>Source:</p>
+                        <p>Zomato</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Payment:</p>
+                        <p>COD</p>
+                      </div>
+                      <div class="list-second">
+                        <p>Amount:</p>
+                        <p>₹ 899.00</p>
+                      </div>
+                    </div>
+                    <div class="btn-wrapper">
+                      <button class="btn-correct btn-active"><i class="fa-solid fa-check "></i></button>
+                      <button class="btn-wrong"><i class="fa-solid fa-xmark "></i></button>
+                      <button class="btn-phone"><i class="fa-solid fa-phone "></i></button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+
+      <!-- popup menu -->
+      <div class="popup-menu" id="popup_menu">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-solid fa-gear setting-icon"></i><p>การตั้งค่าและความเป็นส่วนตัว</p></a>
+            <i class="fa-solid fa-chevron-right icon-right"></i>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-question setting-icon"></i><p>ความช่วยเหลือแลัการสนับสนุน</p></a>
+            <i class="fa-solid fa-chevron-right icon-right"></i>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-moon setting-icon"></i><p>การแสดงผลและการเข้าถึง</p></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-exclamation setting-icon"></i><p>แสดงความคิดเห็น</p></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-door-open setting-icon"></i><p>ออกจากระบบ</p></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </main>
+  <script src="./js/study.js"></script>
+  <footer>
+
+  </footer>
+
+</body>
+
+</html>

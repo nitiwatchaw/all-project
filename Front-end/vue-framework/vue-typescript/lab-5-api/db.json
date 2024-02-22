@@ -1,0 +1,53 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Ink",
+      "email": "nitiwatcmu@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "d706",
+      "name": "Mon",
+      "email": "Prasit@gmail.com",
+      "password": "123456"
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Kantuky Fried Chickene33",
+      "address": "Nivada Uk 500",
+      "contact": "55605e",
+      "id": "2",
+      "userId": "1"
+    },
+    {
+      "id": "4716",
+      "name": "Khint Barusd",
+      "address": "2588 Mudlie duek ",
+      "contact": "12366454",
+      "userId": "1"
+    },
+    {
+      "name": "Lopwer safairt",
+      "address": "486 posrbx",
+      "contact": "24554634",
+      "id": "e72e",
+      "userId": "1"
+    },
+    {
+      "id": "ed43",
+      "name": "2342344",
+      "address": "32432",
+      "contact": "22",
+      "userId": "d706"
+    },
+    {
+      "id": "3388",
+      "name": "miiki,i",
+      "address": "tr54ter",
+      "contact": "23423",
+      "userId": "d706"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "superheroes": [
+    {
+      "id": 1,
+      "name": "Batman ",
+      "alterEgo": "Bruce Wayne"
+    },
+    {
+      "id": 2,
+      "name": "Superman",
+      "alterEgo": "Clark Kent"
+    },
+    {
+      "id": 3,
+      "name": "Wonder Womans",
+      "alterEgo": "Princess Diana"
+    },
+    {
+      "name": "Load",
+      "alterEgo": "Ferea",
+      "id": 4
+    },
+    {
+      "name": "MargernGar",
+      "alterEgo": "Herlopin",
+      "id": 5
+    },
+    {
+      "name": "Errr",
+      "alterEgo": "455",
+      "id": 6
+    },
+    {
+      "name": "Superman",
+      "alterEgo": "Amotirou",
+      "id": 7
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "id": 8
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "id": 9
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "id": 10
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "id": 11
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "id": 12
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "id": 13
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "id": 14
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "id": 15
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "id": 16
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "id": 17
+    },
+    {
+      "name": "",
+      "alterEgo": "",
+      "id": 18
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "Chandler Bing"
+    },
+    {
+      "id": 2,
+      "name": "Joey Tribbiani"
+    },
+    {
+      "id": 3,
+      "name": "Rachel Green"
+    }
+  ],
+  "users": [
+    {
+      "id": "vishwas@example.com",
+      "channelId": "codevolution"
+    },
+    {
+      "id": "nitiwat@example.com",
+      "channelId": "nitivolution"
+    },
+    {
+      "id": "thai@example.com",
+      "channelId": "thaivolution"
+    }
+  ],
+  "channels": [
+    {
+      "id": "codevolution",
+      "courses": [
+        "react",
+        "vue",
+        "angular"
+      ]
+    },
+    {
+      "id": "nitivolution",
+      "courses": [
+        "C##",
+        "Phyton",
+        "Kotlin"
+      ]
+    },
+    {
+      "id": "thaivolution",
+      "courses": [
+        "ภาษาไทย",
+        "เอาแบบไทย",
+        "พูดไทย"
+      ]
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "label": "red"
+    },
+    {
+      "id": 2,
+      "label": "blue"
+    },
+    {
+      "id": 3,
+      "label": "green"
+    },
+    {
+      "id": 4,
+      "label": "yellow"
+    },
+    {
+      "id": 5,
+      "label": "black"
+    },
+    {
+      "id": 6,
+      "label": "white"
+    },
+    {
+      "id": 7,
+      "label": "orange"
+    },
+    {
+      "id": 8,
+      "label": "purple"
+    }
+  ]
+}

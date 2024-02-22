@@ -1,0 +1,15 @@
+body {
+  background-color: #000;
+ }
+
+h1 {
+  color: #e92727;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 20px; }
+
+p {
+  color: green;
+  background-color: blue;
+  border-radius: 5px;
+  padding: 20px; }

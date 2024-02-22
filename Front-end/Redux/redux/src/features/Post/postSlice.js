@@ -1,0 +1,82 @@
+import { createSlice, nanoid } from '@reduxjs/toolkit';
+import { sub } from 'date-fns'
+const initialState = [
+    {
+        id: '1',
+        title: 'Learning Redux Toolkit',
+        content: "I've heard good things.",
+        date: sub(new Date(), { mitnutes: 10 }).toISOString(),
+        reactions: {
+            thumbsUp: 0,
+            wow: 0,
+            heart: 0,
+            rocket: 0,
+            coffee: 0
+        }
+    },
+    {
+        id: '2',
+        title: 'Slices...',
+        content: "The more I say slice, the more I want pizza.",
+        date: sub(new Date(), { mitnutes: 10 }).toISOString(),
+        reactions: {
+            thumbsUp: 0,
+            wow: 0,
+            heart: 0,
+            rocket: 0,
+            coffee: 0
+        }
+    }
+]
+
+const postsSlice = createSlice({
+    name: 'posts',
+    initialState,
+    reducers: {
+
+        postAdded: {
+            reducer(state, action) {
+                // เพิ่มข้องมูลใน array
+                state.push(action.payload)
+            },
+            prepare(title, content, userId) {
+                // เป็นการส่งค่าไปยัง array
+                return {
+                    payload: {
+                        id: nanoid(),
+                        title,
+                        content,
+                        date: new Date().toISOString(),
+                        userId,
+                        reactions: {
+                            thumbsUp: 0,
+                            wow: 0,
+                            heart: 0,
+                            rocket: 0,
+                            coffee: 0
+                        }
+                    }
+                }
+            }
+        },
+
+        reactionsAdded(state, action) {
+            // เป็นการเพิ่ม จำนวนตัวเลข ของ reactions
+            const { postId, reaction } = action.payload
+            const existingPost = state.find(post => post.id === postId)
+            if (existingPost) {
+                existingPost.reactions[reaction]++
+            }
+        },
+        deletePost(state, action) {
+            const { postId } = action.payload
+            return state.filter(post => post.id !== postId);
+        }
+    }
+})
+
+export const selectAllPosts = (state) => state.posts;
+
+export const { postAdded, reactionsAdded, deletePost } = postsSlice.actions
+
+export default postsSlice.reducer

@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&family=Ubuntu:ital@1&display=swap');
+
+@layer base{
+    .Box{
+        @apply text-white text-2xl font-bold uppercase;
+    }
+
+}
+

@@ -1,0 +1,6 @@
+This is simple fullstack project
+
+# frontend 
+ cd frontend => npm run dev
+# backend 
+ cd backend => nodemon server

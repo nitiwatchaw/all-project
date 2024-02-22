@@ -1,0 +1,93 @@
+
+.first-line{
+    display: block;
+    border: 2px solid rgb(8,92,252);
+    color: white;
+    background-color: rgb(8,92,252);
+    text-align: center;
+    width: 100%;
+}
+.Second-line{
+    display: inline;
+    border: 2px solid rgb(8,92,252);
+    color: white;
+    background-color: rgb(8,92,252);
+    text-align: center;
+    width: 200px;
+  
+}
+.third-line{
+    display: inline-block;
+    border: 2px solid rgb(8,92,252);
+    color: white;
+    background-color: rgb(8,92,252);
+    text-align: center;
+    width: 150px;
+}
+
+.container-ad{
+    width: 800px;
+}
+.text{
+    display: inline-block;
+    border: 2px solid rgb(8,92,252);
+    color: white;
+    background-color: rgb(8,92,252);
+    text-align: center;
+    width: 150px;
+    margin-top: 10px;
+}
+.middle{
+    display: table;
+    height:80px;
+    width: 100%;
+}
+.middle-cell{
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+.pink-middle{
+    display: table;
+    height: 80px;
+    width: 100%;
+    
+}
+.pink-middle-cell{
+    display: table-cell;
+    vertical-align: middle;
+    
+}
+.circle{
+    display: inline-block;
+    border: 2px solid rgb(8,92,252);
+    color: white;
+    background-color: rgb(8,92,252);
+    text-align: center;
+    width: 80px;
+    border-radius: 100px;
+    min-height:80px;
+   
+   
+}
+.pink-box{
+    display: inline-block;
+    border: 2px solid rgb(256,4,132);
+    color: white;
+    background-color: rgb(256,4,132);
+    text-align: center;
+    width:200px;
+    min-height: 80px;
+    padding: 20px;
+    margin-right: 20px;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+.border-pink{
+    display: table;
+    width: 100%;
+}
+.border-cell{
+    display: table-cell;
+    vertical-align: middle;
+}

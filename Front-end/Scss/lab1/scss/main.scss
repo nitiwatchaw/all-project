@@ -1,0 +1,25 @@
+$red: rgb(233, 39, 39);
+$black: #000;
+$stack: green;
+
+@mixin CardText(){
+    background-color: blue;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+body{
+    background-color: $black;
+    
+}
+
+h1{
+    color: $red;
+    @include CardText()
+}
+
+p{
+    color: $stack;
+    @include CardText()
+  }
+  

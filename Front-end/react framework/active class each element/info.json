@@ -1,0 +1,62 @@
+[
+    {
+        "id": 1,
+        "userID": "ink",
+        "userDetail": [
+            {
+                "fname": "Nitiwat"
+            },
+            {
+                "lname": "Chawkanha"
+            },
+            {
+                "address": "CNX"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "userID": "karn",
+        "userDetail": [
+            {
+                "fname": "karn"
+            },
+            {
+                "lname": "noongram"
+            },
+            {
+                "address": "CNX"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "userID": "mon",
+        "userDetail": [
+            {
+                "fname": "pasit"
+            },
+            {
+                "lname": "chanwiwit"
+            },
+            {
+                "address": "CNX"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "userID": "yeen",
+        "userDetail": [
+            {
+                "fname": "warayut"
+            },
+            {
+                "lname": "jomwan"
+            },
+            {
+                "address": "CHY"
+            }
+        ]
+    }
+]
