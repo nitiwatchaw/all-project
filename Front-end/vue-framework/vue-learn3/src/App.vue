@@ -30,8 +30,6 @@ const addNote = () => {
   newNote.value = "";
   errorMessage.value = ""
 
-
-
 }
 
 
@@ -44,7 +42,6 @@ const deleteNote = (id) => {
 
 <template>
   <main>
-
 
     <!-- modal -->
     <div v-if="showModal" class="overlay">
